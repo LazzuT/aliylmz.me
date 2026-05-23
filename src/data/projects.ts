@@ -16,7 +16,7 @@ export const projectsData: Project[] = [
     title: "Pengui",
     category: "Web Platformu / Açık Kaynak",
     description: "Linux öğrenmek isteyen kullanıcılar için geliştirdiğim Türkçe komut kütüphanesi ve öğrenim platformu.",
-    image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80",
+    image: "/images/pengui.png",
     link: "https://pengui.org",
     githubUrl: "https://github.com/LazzuT/pengui",
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Linux", "Open Source", "SSG"],

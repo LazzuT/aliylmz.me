@@ -5,7 +5,11 @@ export const siteData = {
     description: "Bu sitede çalışmalarımı, projelerimi ve iletişim bilgilerimi bulabilirsiniz."
   },
   about: {
-    introduction: "Ben Ali Yılmaz. 2007 yılında Kocaeli’de doğdum. Doğu Akdeniz Üniversitesi Radyo, Televizyon ve Sinema Bölümü öğrencisiyim. Küçük yaşlardan itibaren tiyatroya ve kamera önü performansına ilgi duydum. Bu ilgimi geliştirmek için çeşitli eğitimler aldım. Daha sonra seslendirme alanına yönelerek bu konuda da eğitim aldım. Son dönemde yapay zeka destekli web geliştirme ve Vibe Coding alanına ilgi duymaya başladım ve hobi olarak aklıma gelen projelerle kendimi geliştirmeye başladım. Şu anda bu alanda bir proje geliştiriyor, üretim sürecinde kendimi hem teknik hem de yaratıcı açıdan geliştirmeye devam ediyorum.",
+    biography: {
+      intro: "Merhaba, ben Ali Efe Yılmaz.\n\nKocaeli'de doğdum. Şu an Doğu Akdeniz Üniversitesi Radyo, Televizyon ve Sinema bölümü 1. sınıf öğrencisiyim. Hayatımı medya üretimi ve dijital teknolojiler üzerine kuruyorum.",
+      acting: "Küçük yaşlarda başlayan tiyatro ilgimi profesyonel eğitimlerle destekledim. Kamera önü oyunculuk eğitimimi Beşiktaş Kültür Merkezi (BKM) bünyesinde aldım. Seslendirme ve dublaj alanında ise Federal Film Akademi çatısı altında; Mustafa Oral, Tarkan Koç, Özlem Altınok ve Kadir Özübek gibi usta isimlerden dersler alarak kendimi geliştirdim.",
+      software: "Sanatsal çalışmalarımın yanı sıra, yapay zeka destekli web geliştirme ve yazılım dünyasıyla uğraşıyorum. \"Vibe Coding\" yaklaşımıyla, AI araçlarını kullanarak yazılım konusunda kendimi geliştirmeye ve öğrenmeye çalışıyorum. Teknolojiye olan tutkumu, geleneksel medya disiplinleriyle harmanlayarak sanatı ve dijital üretimi birleştiren projeler geliştiriyorum."
+    },
     expertise: [
       { id: "acting", label: "Oyunculuk", description: "Tiyatro ve kamera önü performansı." },
       { id: "voiceover", label: "Seslendirme", description: "Profesyonel metin seslendirmesi." },

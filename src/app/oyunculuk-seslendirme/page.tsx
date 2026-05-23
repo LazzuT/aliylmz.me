@@ -1,4 +1,4 @@
-import { audioDemos, galleryImages } from "@/data/performances"
+import { audioDemos, videoPerformances } from "@/data/performances"
 import { SectionIntro } from "@/components/ui/SectionIntro"
 import { AudioPlayerRow } from "@/components/ui/AudioPlayerRow"
 
@@ -22,20 +22,27 @@ export default function PortfolioPage() {
 
       <section>
         <h3 className="font-medium text-xl md:text-2xl text-zinc-50 mb-6">Oyunculuk</h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-          {galleryImages.map((image) => (
-            <div 
-              key={image.id} 
-              className="relative overflow-hidden rounded-xl bg-zinc-900 border border-zinc-800/50 group aspect-[4/5] sm:aspect-square"
-            >
-              <img 
-                src={image.src} 
-                alt={image.alt}
-                className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
-              />
+        
+        <div className="mb-8 max-w-4xl">
+          {videoPerformances.map((video) => (
+            <div key={video.id} className="mb-8">
+              <div className="aspect-video w-full rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 relative">
+                <iframe 
+                  width="100%" 
+                  height="100%" 
+                  src={`https://www.youtube.com/embed/${video.youtubeId}`} 
+                  title={video.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                  className="absolute top-0 left-0 w-full h-full"
+                ></iframe>
+              </div>
+              <p className="mt-3 text-zinc-400 text-sm md:text-base font-medium pl-1">{video.title}</p>
             </div>
           ))}
         </div>
+
+
       </section>
     </div>
   )

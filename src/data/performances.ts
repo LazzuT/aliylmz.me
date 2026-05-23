@@ -25,3 +25,13 @@ export const galleryImages: GalleryImage[] = [
   { id: "g3", src: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&q=80", alt: "Sinematik çekim", aspectRatio: "video" },
   { id: "g4", src: "https://images.unsplash.com/photo-1516280440502-861f185dcbdf?auto=format&fit=crop&q=80", alt: "Kamera önü", aspectRatio: "square" },
 ];
+
+export type VideoPerformance = {
+  id: string;
+  title: string;
+  youtubeId: string;
+};
+
+export const videoPerformances: VideoPerformance[] = [
+  { id: "v1", title: "Ali Efe Yılmaz Monolog Videosu", youtubeId: "POmXkQ-KK3s" }
+];
