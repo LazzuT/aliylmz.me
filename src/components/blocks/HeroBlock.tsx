@@ -45,10 +45,10 @@ export function HeroBlock({ title, subtitle, description }: HeroBlockProps) {
            transition={{ delay: 0.4, duration: 0.5 }}
            className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Link href="/projeler" className="inline-flex items-center justify-center h-11 px-6 text-sm rounded-lg font-medium bg-zinc-100 text-zinc-900 hover:bg-zinc-200 transition-colors w-full sm:w-auto">
+          <Link href="/projeler" className="inline-flex items-center justify-center h-11 px-6 text-sm rounded-lg font-medium bg-zinc-100 text-zinc-900 hover:bg-zinc-200 transition-all hover:scale-[1.02] active:scale-95 w-full sm:w-auto">
             Çalışmalarım
           </Link>
-          <Link href="/iletisim" className="inline-flex items-center justify-center h-11 px-6 text-sm rounded-lg font-medium bg-transparent border border-zinc-700 text-zinc-100 hover:bg-zinc-900 transition-colors w-full sm:w-auto">
+          <Link href="/iletisim" className="inline-flex items-center justify-center h-11 px-6 text-sm rounded-lg font-medium bg-transparent border border-zinc-700 text-zinc-100 hover:bg-zinc-900 hover:border-zinc-500 transition-all hover:scale-[1.02] active:scale-95 w-full sm:w-auto">
             İletişim
           </Link>
         </motion.div>
