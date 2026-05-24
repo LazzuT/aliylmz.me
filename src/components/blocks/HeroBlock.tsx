@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
 
 const scriptLines = [
-  "[SAHNE 1: İÇ MEKAN / DİJİTAL DÜNYA]",
-  "KARAKTER: Ali Yılmaz",
-  "ROL: Oyuncu & Seslendirme Sanatçısı & AI destekli dijital projeler."
+  "ALİ YILMAZ",
+  "Oyuncu & Seslendirme Sanatçısı & AI destekli dijital projeler.",
+  "Bu sitede çalışmalarımı, projelerimi ve iletişim bilgilerimi bulabilirsiniz."
 ]
 
 const terminalLines = [
@@ -129,7 +129,7 @@ function TypewriterScript({ onOpenTerminal }: { onOpenTerminal: () => void }) {
             title="Sistemi Genişlet"
           ></motion.div>
         </div>
-        <span className="ml-4 text-xs text-zinc-500 font-sans tracking-widest uppercase">script.md</span>
+        <span className="ml-4 text-xs text-zinc-500 font-sans tracking-widest uppercase">YLMZ</span>
       </div>
 
       <div className="p-6 md:p-8 flex flex-col gap-4 min-h-[160px]">
@@ -139,7 +139,7 @@ function TypewriterScript({ onOpenTerminal }: { onOpenTerminal: () => void }) {
           let formattedLine = <span className="text-zinc-300">{line}</span>;
 
           if (index === 0) {
-            formattedLine = <span className="text-zinc-500">{line}</span>;
+            formattedLine = <span className="text-zinc-100 font-semibold tracking-[0.2em] drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">{line}</span>;
           } else if (index === 1 && line.startsWith("KARAKTER:")) {
             const parts = line.split("KARAKTER:");
             formattedLine = (
