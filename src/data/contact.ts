@@ -22,6 +22,7 @@ export const contactData = {
   socials: [
     { platform: "Instagram", url: "https://instagram.com/aliyilmazimben" },
     { platform: "LinkedIn", url: "https://linkedin.com/in/alieyilmaz" },
-    { platform: "X", url: "https://x.com/aliyilmazimben" }
+    { platform: "X", url: "https://x.com/aliyilmazimben" },
+    { platform: "GitHub", url: "https://github.com/LazzuT" }
   ]
 };
