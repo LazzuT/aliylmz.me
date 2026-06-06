@@ -12,7 +12,7 @@ export const siteData = {
     },
     expertise: [
       { id: "acting", label: "Oyunculuk", description: "Tiyatro ve kamera önü performansı." },
-      { id: "voiceover", label: "Seslendirme", description: "Profesyonel metin seslendirmesi." },
+      { id: "voiceover", label: "Seslendirme ve Dublaj", description: "Profesyonel seslendirme ve dublaj." },
       { id: "digital", label: "Dijital Projeler", description: "Yapay zeka araçları ile web geliştirme." }
     ],
     timeline: [
